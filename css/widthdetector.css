@@ -1,0 +1,20 @@
+body { background: no-repeat 0em 5em; margin: 2%; clear:both;}
+body:before { height:2em; display: block; font-size: 5vw;}
+
+.w250 body:before { content: "screen width 250";}
+.w250 body:after { content: url(../img/320.jpg)}
+
+.w320 body:before {content: "screen width 320"; }
+.w320 body:after { content:  url(../img/320.jpg);}
+
+.w480 body:before { content: "screen width 480";}
+.w480 body:after {content: url(../img/480.jpg)}
+
+.w768 body:before { content: "screen width 768";}
+.w768 body:after { content: url(../img/768.jpg);}
+
+.w1024 body:before { content: "screen width 1024";}
+.w1024 body:after { content: url(../img/1024.jpg);}
+
+.w1900 body:before { content: "screen width 1900";}
+.w1900 body:after {content: url(../img/1900.jpg);}
